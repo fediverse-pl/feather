@@ -65,9 +65,44 @@ const nb = {
   }
 }
 
+const pl = {
+  'login': {
+    'login': 'Zaloguj zię',
+    'username': 'Nazwa użytkownika (np. kaniini)',
+    'password': 'Hasło'
+  },
+  'sidebar': {
+    'search': 'Szukaj',
+    'search-results': 'Wyniki',
+    'search-accounts': 'Konta',
+    'search-hashtags': 'Hashtagi',
+    'search-statuses': 'Wpisy'
+  },
+  'activity': {
+    'boosted': 'podbił',
+    'liked': 'polubił',
+    'expand': 'Rozwiń',
+    'close': 'Zwiń'
+  },
+  'timeline': {
+    'home': 'Strona główna',
+    'public': 'Publiczna oś czasu',
+    'collection': 'Kolekcja',
+    'view_collection': 'Pokaż kolekcję',
+    'compose': {
+      'placeholder': 'Co Ci chodzi po głowie?',
+      'submit': 'Wyślij',
+      'content_advisory': 'Ostrzeżenie o zawartości',
+      'content_advisory_text': 'Wprowadź ostrzeżenie o zawartości tutaj'
+    },
+    'media-view': 'Przełącz widok samych multimediów'
+  }
+}
+
 const messages = {
   en,
-  nb
+  nb,
+  pl
 }
 
 export default messages
